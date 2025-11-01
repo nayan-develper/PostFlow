@@ -99,17 +99,4 @@ Open the frontend at http://localhost:3000 (or the port set in `frontend/.env`) 
 3. Visit the blogs list to see the new post (the Blog service uses Redis cache — if the cache is invalidated an unreadable post may be rebuilt by the consumer).  
 4. Show the AI endpoints by asking the editor to polish a title or description (calls to Google Generative AI).
 
-## Resume-ready copy (copy & paste)
-PostFlow — a Dockerized, AWS-deployable microservices blogging platform (Next.js frontend; TypeScript Express services). Implemented JWT & Google OAuth authentication, Cloudinary-backed media uploads, Redis caching with RabbitMQ-driven cache invalidation, NeonDB + MongoDB storage, and Google Generative AI for content polishing.
 
-## Next improvements (nice-to-have, will make repo stand out)
-- Add `docker-compose.yml` so reviewers can run the full stack locally with a single command.  
-- Add a short GitHub Actions workflow to run `tsc` and tests.  
-- Add a Jest unit test for `isAuth` middleware and a Postman collection for key flows.  
-- Add a short demo GIF and ARCHITECTURE.md with PNG diagram.
-
-## Contribution
-Feel free to open issues or PRs. If you want me to add Docker Compose, CI or tests I can add them — tell me which piece you want first.
-
----
-_Repository generated/maintained by project owner. Replace `PostFlow` with your preferred project name if needed._
